@@ -76,24 +76,24 @@ Once the button <b>“Simulate”</b> is pressed and execution is completed, you
 
 <b>Glossary:</b>
 ApexVirtualDevice – A class that binds the graphics with code. This is basically a
-controller of Simulator.
-Initializer – This class is used to read the file for instructions.
-Constants – This is simply a class to declare application constants.
-Parser – Parser is class which helps in decomposing an instruction to better break down.
-Instruction – A model class to hold the information of an instruction
-Dependency – A model class which holds the information of dependent instructions.
-Once the dependency is resolved its getting removed.
-ICache – This class is the subclass of Hashtable<K,V> which is used to Map PC with Instruction and stored in a Key Value pair.
-Shared Data – This is a general utility to access the global data such as Register File, Memory and Program Counter.
-Functional Unit- This is a base class for any functional unit class.
+controller of Simulator.<br>
+Initializer – This class is used to read the file for instructions.<br>
+Constants – This is simply a class to declare application constants.<br>
+Parser – Parser is class which helps in decomposing an instruction to better break down.<br>
+Instruction – A model class to hold the information of an instruction<br>
+Dependency – A model class which holds the information of dependent instructions.<br>
+Once the dependency is resolved its getting removed.<br>
+ICache – This class is the subclass of Hashtable<K,V> which is used to Map PC with Instruction and stored in a Key Value pair.<br>
+Shared Data – This is a general utility to access the global data such as Register File, Memory and Program Counter.<br>
+Functional Unit- This is a base class for any functional unit class.<br>
 a. ALU–ThisisaderivedclassofFunctionalUnitwhichhandlesthe
-Arithmetic instrictions.
+Arithmetic instrictions.<br>
 b. Branch–ThisisalsoaderivedclassofFunctionalUnitwhichhandles
-the Branch instructions.
-ApexPipeLineHandler – This class is the main class where the pipeline mechanism is implemented.
-Stage- This is the base class for all stage classes.
-Fetch – This is for the fetch stage and derived from Stage class.
-Decode – This also inherits the Stage class.
-Execute– This also inherits the Stage class.
-Memory- This phase also inherits the class Stage.
-Writeback – This class is straightforward, it implements the logic to write values to register file. This is also a subtype of Stage class.
+the Branch instructions.<br>
+ApexPipeLineHandler – This class is the main class where the pipeline mechanism is implemented.<br>
+Stage- This is the base class for all stage classes.<br>
+Fetch – This is for the fetch stage and derived from Stage class.<br>
+Decode – This also inherits the Stage class.<br>
+Execute– This also inherits the Stage class.<br>
+Memory- This phase also inherits the class Stage.<br>
+Writeback – This class is straightforward, it implements the logic to write values to register file. This is also a subtype of Stage class.<br>
