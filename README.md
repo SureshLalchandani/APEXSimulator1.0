@@ -1,4 +1,4 @@
-APEX Pipeline Simulator
+APEX Pipeline Simulator. Eclipse Project. How to run? Easy: Download project and import in eclipse using "import existing project into workspace" feature.
 
 1. Introduction
 2. Implementation 
